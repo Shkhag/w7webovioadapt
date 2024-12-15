@@ -1,0 +1,165 @@
+
+.action {
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-181px);
+    max-width: 1275px;
+    background: #FAFAFA;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+    padding-bottom: 70px;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .action {
+      position: relative;
+      transform: none;
+      padding-bottom: 30px;
+    }
+  }
+  .action__title {
+    margin: 0;
+    padding-top: 70px;
+    margin-left: 164px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    color: #4D533C;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .action__title {
+      padding-top: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .action__title {
+      margin-left: 30px;    
+      margin-bottom: 20px;
+    }
+  }
+.action__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+    margin-left: 164px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .action__link {
+      margin-left: 30px;
+    }
+  }
+
+  .button {
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    background: none;
+    border: none;
+  }
+  
+  .button:hover {
+    opacity: 0.6;
+  }
+  .client {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    background-color: #fcfcfc;
+    max-width: 1276px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-113px);
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: -231px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .client {
+      position: relative;
+      margin: 0;
+      width: 100%;
+      transform: none;
+    }
+  }
+  .client__icon {
+    width: 156px;  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .client__icon {
+      width: 135px;
+    }
+  }
+  .client__logo {
+    margin-top: 60px;
+    margin-bottom: 54px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .client__logo:first-of-type {
+    margin-left: 65px;
+  }
+  
+  .client__logo:last-of-type {
+    margin-right: 166px;
+  }
+  
+  .client__logo:hover {
+    transform: scale(1.1);
+    transition: 0.6s ease;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .client__logo:last-of-type {
+      margin-right: 65px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .client__logo {
+      margin: 30px 0px;
+    }
+  
+    .client__logo:first-of-type {
+      margin-left: 20px;
+    }
+  
+    .client__logo:last-of-type {
+      margin-right: 20px;
+    }
+  }
+  .column {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .column__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+    text-decoration: none;
+  }
+  .column__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 89px;
+  }
+  
+  .column__list:last-of-type {
+    margin-right: 0;
+  }
+ 
